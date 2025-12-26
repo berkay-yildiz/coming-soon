@@ -1,1 +1,75 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yakında Yayında | berkayyildiz.work</title>
+  <meta name="description" content="Berkay Yıldız — yakında yayında." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <main class="wrap">
+    <header class="top">
+      <div class="badge">berkayyildiz.work</div>
+      <nav class="nav">
+        <a href="#" aria-disabled="true">Portfolio</a>
+        <a href="#" aria-disabled="true">Blog</a>
+        <a href="mailto:hello@berkayyildiz.work">İletişim</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="glow" aria-hidden="true"></div>
+
+      <h1>
+        Yeni site <span class="accent">yakında</span> yayında.
+      </h1>
+
+      <p class="sub">
+        Şu an hazırlık aşamasındayım. Çok yakında portfolyo + yazılar burada olacak.
+      </p>
+
+      <div class="cta">
+        <a class="btn primary" href="mailto:hello@berkayyildiz.work">Bana ulaş</a>
+        <button class="btn ghost" id="copyLink" type="button">Linki kopyala</button>
+      </div>
+
+      <div class="card">
+        <div class="kpi">
+          <div class="kpi__label">Durum</div>
+          <div class="kpi__value">
+            <span class="dot"></span> Coming soon
+          </div>
+        </div>
+        <div class="kpi">
+          <div class="kpi__label">Güncelleme</div>
+          <div class="kpi__value" id="lastUpdated">—</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi__label">Takip</div>
+          <div class="kpi__value">
+            <a class="link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <span class="sep">•</span>
+            <a class="link" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <footer class="foot">
+        <span>© <span id="year"></span> Berkay Yıldız</span>
+        <span class="sep">•</span>
+        <span class="muted">Cloudflare Pages</span>
+      </footer>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
 
